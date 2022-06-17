@@ -26,7 +26,7 @@
   --foter-linkclr: rgba(255, 255, 255, 0.6);
   /* Шрифты */
   --main-font: 'Roboto';
-  --logo-font: 'Relaway';
+  --logo-font: 'Raleway';
   /* Цвета заливки */
   --mainbcg-color: #ffffff;
   --herofootbcg-color: #2f303a;
@@ -224,7 +224,11 @@ address {
   background-color: var(--focus-color);
   color: var(--maintext-color);
 }
-
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
+  background-color: var(--focus-btnclr);
+  color: var(--maintext-color);
+}
 /* 3.2 Работы */
 
 .portfolio-names {
