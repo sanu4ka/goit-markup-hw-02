@@ -22,6 +22,8 @@
   --text-color: #212121;
   --subtext-color: #757575;
   --focus-color: #2196f3;
+  --logo-color: #000000;
+  --foter-linkclr: rgba(255, 255, 255, 0.6);
   /* Шрифты */
   --main-font: 'Roboto';
   --logo-font: 'Relaway';
@@ -29,6 +31,7 @@
   --mainbcg-color: #ffffff;
   --herofootbcg-color: #2f303a;
   --portfolio-btnsbcg: #f5f4fa;
+  --focus-btnclr: #188ce8;
   /* Другое */
 }
 body {
@@ -64,7 +67,7 @@ body {
   color: var(--focus-color);
 }
 .studio-header {
-  color: #000000;
+  color: var(--logo-color);
 }
 .nav-list,
 .contacts {
@@ -81,7 +84,7 @@ body {
   color: var(--focus-color);
 }
 .contacts-link {
-  color: #757575;
+  color: var(--subtext-color);
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -118,7 +121,7 @@ body {
 }
 .main-button:hover,
 .main-button:focus {
-  background-color: #188ce8;
+  background-color: var(--focus-btnclr);
 }
 
 /* 2.2.2 Преимущества */
@@ -149,7 +152,7 @@ body {
 /* 2.2.4 Команда */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--portfolio-btnsbcg);
 }
 .team-description {
   font-weight: 700;
@@ -183,14 +186,13 @@ body {
 }
 address {
   font-style: inherit;
-  font-size: 14px;
   line-height: 1.71;
 }
 .map-link {
   color: var(--maintext-color);
 }
 .contacts-footer {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--foter-linkclr);
 }
 .map-link:hover,
 .map-link:focus,
@@ -233,7 +235,6 @@ address {
   color: var(--text-color);
 }
 .portfolio-spec {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: var(--subtext-color);
